@@ -66,7 +66,7 @@ int main(void) {
 
 	  switch(operacion)
 		{
-	        case'f':
+	        case'5':
 	        {
 	        	Resp_Factorial_A=factorial_A(num1);
 	        	Resp_Factorial_B=factorial_B(num2);
@@ -75,25 +75,25 @@ int main(void) {
 
 	        }
 	        break;
-			case 's':
+			case '1':
 			{
 				Resp_Suma = sumar(num1, num2);
 				printf("El resultado de %d+%d es:%d\n",num1,num2,Resp_Suma);
 				break;
 			}
-			case 'r':
+			case '2':
 			{
 				Resp_Resta = restar(num1, num2);
 				printf("El resultado de %d-%d es: :%d\n", num1, num2,Resp_Resta);
 				break;
 			}
-			case 'm':
+			case '4':
 			{
 				Resp_Multiplicacion = multiplicar(num1, num2);
 				printf("El resultado de %d*%d es:%d\n", num1, num2,Resp_Multiplicacion);
 				break;
 			}
-			case 'd':
+			case '3':
 			{
 				Resp_Division = dividir(&resultado, num1, num2);
 
