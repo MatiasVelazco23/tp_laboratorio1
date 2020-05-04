@@ -35,7 +35,6 @@ int main(void) {
 	int Resp_Resta;
 	int Resp_Multiplicacion;
 	int Resp_Division;
-	float resultado;
 	int Resp_Factorial_A;
 	int Resp_Factorial_B;
 
