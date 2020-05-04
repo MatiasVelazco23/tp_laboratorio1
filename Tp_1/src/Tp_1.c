@@ -40,12 +40,12 @@ int main(void) {
 
 
 
-	printf("Ingrese un numero\n");
+	printf("Ingrese 1er operando(A=x)\n");
 	__fpurge(stdin); //LINUX
 	scanf("%d", &num1);
 
 	printf("A es:%d\n", num1);
-	 printf("Ingrese una operación [m,d,s,r,f] (!=[m,d,s,r,f] para salir):  \n");
+	 printf("1-Sumar\n 2-Restar\n3-Dividir\n4-Multiplicacion:\n5-Factorial de A y B  \n");
 
 	__fpurge(stdin);//LINUX
 	    scanf("%c",&operacion);
@@ -53,7 +53,7 @@ int main(void) {
 
 
 
-	printf("Ingrese un numero\n");
+	printf("Ingresar 2do operando (B=y)\n");
 	__fpurge(stdin); //LINUX
 	scanf("%d", &num2);
 	printf("B es: %d\n", num2);
